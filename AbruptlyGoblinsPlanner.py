@@ -109,9 +109,6 @@ calculate_availability(unable_to_attend_best_night, second_night_availability)
 second_night = find_best_night(second_night_availability)
 
 
-
-
-
 #Sending out an email to everyone (whether they can attend the first night or not) whose marked themselves as available on our second game night.
 available_second_game_night = available_on_night(gamers, second_night)
 send_email(available_second_game_night, second_night, "Abruptly Goblins!")
